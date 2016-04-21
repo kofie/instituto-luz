@@ -1,0 +1,18 @@
+<!doctype html>
+{% load static %}
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="" />
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/layouts/pure-min.css' %}"/>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/layouts/side-menu.css' %}"/>
+  </head>
+<body>
+<div class="container">
+  {% block content %}{% endblock %}
+</div>
+</body>
+<script src="{% static "js/ui.js" %}"></script>
+</html>
